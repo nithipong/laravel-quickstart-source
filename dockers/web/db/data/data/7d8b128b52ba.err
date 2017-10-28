@@ -1,0 +1,44 @@
+2017-10-28T07:50:56.598235Z mysqld_safe Logging to '/opt/bitnami/mysql/data/7d8b128b52ba.err'.
+2017-10-28T07:50:56.623418Z mysqld_safe Starting mysqld daemon with databases from /opt/bitnami/mysql/data
+mysqld: [Warning] World-writable config file '/opt/bitnami/mysql/conf/my.cnf' is ignored.
+2017-10-28T07:50:56.820920Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-10-28T07:50:56.821652Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-10-28T07:50:56.821699Z 0 [Note] /opt/bitnami/mysql/bin/mysqld (mysqld 5.7.20) starting as process 117 ...
+2017-10-28T07:50:56.828117Z 0 [Warning] Setting lower_case_table_names=2 because file system for /opt/bitnami/mysql/data/ is case insensitive
+2017-10-28T07:50:56.832375Z 0 [Note] InnoDB: PUNCH HOLE support available
+2017-10-28T07:50:56.832613Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-10-28T07:50:56.832848Z 0 [Note] InnoDB: Uses event mutexes
+2017-10-28T07:50:56.833395Z 0 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2017-10-28T07:50:56.833614Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-10-28T07:50:56.833804Z 0 [Note] InnoDB: Using Linux native AIO
+2017-10-28T07:50:56.834372Z 0 [Note] InnoDB: Number of pools: 1
+2017-10-28T07:50:56.834674Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2017-10-28T07:50:56.837458Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2017-10-28T07:50:56.843503Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-10-28T07:50:56.845541Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2017-10-28T07:50:56.873914Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-10-28T07:50:56.883032Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2602508
+2017-10-28T07:50:56.883262Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2602517
+2017-10-28T07:50:56.883465Z 0 [Note] InnoDB: Database was not shutdown normally!
+2017-10-28T07:50:56.883707Z 0 [Note] InnoDB: Starting crash recovery.
+2017-10-28T07:50:57.063464Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2017-10-28T07:50:57.063669Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-10-28T07:50:57.064623Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-10-28T07:50:57.117519Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2017-10-28T07:50:57.120959Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-10-28T07:50:57.121242Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-10-28T07:50:57.122146Z 0 [Note] InnoDB: 5.7.20 started; log sequence number 2602517
+2017-10-28T07:50:57.123172Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-10-28T07:50:57.123349Z 0 [Note] InnoDB: Loading buffer pool(s) from /bitnami/mysql/data/ib_buffer_pool
+2017-10-28T07:50:57.153675Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-10-28T07:50:57.154736Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-10-28T07:50:57.155191Z 0 [Note] IPv6 is available.
+2017-10-28T07:50:57.155423Z 0 [Note]   - '::' resolves to '::';
+2017-10-28T07:50:57.155879Z 0 [Note] Server socket created on IP: '::'.
+2017-10-28T07:50:57.170294Z 0 [Note] InnoDB: Buffer pool(s) load completed at 171028  7:50:57
+2017-10-28T07:50:57.346935Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-10-28T07:50:57.347297Z 0 [Note] /opt/bitnami/mysql/bin/mysqld: ready for connections.
+Version: '5.7.20'  socket: '/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2017-10-28T07:50:57.347472Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2017-10-28T07:50:57.347654Z 0 [Note] Beginning of list of non-natively partitioned tables
+2017-10-28T07:50:57.557439Z 0 [Note] End of list of non-natively partitioned tables
