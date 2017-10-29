@@ -6,6 +6,8 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     New Task
+
+                    <a href="{{ url('task/delall')}}" style="float: right;">Delete All Task</a>
                 </div>
 
                 <div class="panel-body">
